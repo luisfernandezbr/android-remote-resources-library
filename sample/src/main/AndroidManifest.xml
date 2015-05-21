@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.mobiplus.remoteresources.sample" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".application.AppApplication">
+
+        <meta-data android:name="arrl_parse_applicationId" android:value="5xJAGdCr8KvMjLTum2u38jX9FGNushFnv0g5SaSw" />
+        <meta-data android:name="arrl_parse_clientKey" android:value="UkYS3ZtMi8qQ34onoTWki94iKgYVxKY0YqbooeHA" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+
+</manifest>

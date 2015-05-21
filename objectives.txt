@@ -1,0 +1,10 @@
+- Point to a remote string resource using R.string.remote_name;
+- Set variables inside text, possibility of config and change all texts remotelly.
+
+- Use reflection into Application start (background) to map R.string.ids to R.string.names
+
+links
+https://realm.io/news/writing-android-libraries/
+http://pt.slideshare.net/Infinum/infinum-android-talks-02
+https://github.com/luisfernandezbr/hello-annotations
+https://realm.io/news/writing-android-libraries/

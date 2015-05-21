@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">android-remote-resource-library</string>
+
+    <string name="arrl_text_title" formatted="false">This is a local title with args %s and %s</string>
+    <string name="arrl_text_description" formatted="false">This is a local description without args</string>
+</resources>
